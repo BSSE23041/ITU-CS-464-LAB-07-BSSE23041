@@ -2,8 +2,9 @@
 
 Comet Run is a small mobile game where you tap comets before the timer runs out. For this lab I only made the menus, so the gameplay screen is just a HUD mock-up that leads to Pause and Results.
 
-Below there's one section for each of the 10 screens. Every screenshot is 1080x1920. To get all the different states into the pictures (locked, owned, selected, can't afford) I took them with some example progress: 450 coins, 3 levels cleared and the Falcon ship owned. I drew the boxes, arrows and numbered notes in magenta because that colour isn't used anywhere in the game, so you can't mix up a note with the UI. I made the greyscale versions with luminance (same as Desaturate > Luminance in GIMP).
+Below there's one section for each of the 10 screens. Every screenshot is 1080x1920. To get all the different states into the pictures (locked, owned, selected, can't afford) I took them with some example progress: 450 coins, 3 levels cleared and the Falcon ship owned. I drew the boxes, arrows and numbered notes in magenta because that colour isn't used anywhere in the game, so you can't mix up a note with the UI. I made the greyscale versions with luminance.
 
+## Video Link: https://youtu.be/YgCkZ2I9ZaY
 
 ## 01 - Title
 
@@ -11,10 +12,10 @@ Below there's one section for each of the 10 screens. Every screenshot is 1080x1
 
 **Principles and techniques:**
 - Hierarchy: the logo is the biggest thing on the screen, so you see it first. The tagline under it is smaller and grey, and the version text at the bottom is the smallest of all.
-- Colour: orange is only on "COMET" and the comet drawing. It's the same orange I use later for the main buttons, so it turns into the "action" colour.
-- Big touch target: the whole screen works as one button, and "TAP ANYWHERE TO START" in bold caps tells you what to do.
+- Colour: orange is only on COMET and the comet drawing. It's the same orange I use later for the main buttons, so it turns into the action colour.
+- Big touch target: the whole screen works as one button, and TAP ANYWHERE TO START in bold caps tells you what to do.
 - Contrast: white and orange on dark navy are both really easy to read.
-- Calm background: the planet and stars are dark, low contrast shapes so they don't pull your eye away from the logo.
+- Calm background: the planet and stars are dark low contrast shapes so they don't pull your eye away from the logo.
 
 **Tweens and ease curves:**
 - The logo grows from 70% to full size with **OutBack (0.6 s)**. The little overshoot makes it pop, so your eye goes straight to it.
@@ -278,4 +279,4 @@ Below there's one section for each of the 10 screens. Every screenshot is 1080x1
 
 <img src="Docs/Screenshots/10-settings-greyscale.png" alt="Settings greyscale" width="500">
 
-**Greyscale check:** at first the switches only changed colour, and in grey ON and OFF were hard to tell apart. I added the ON/OFF text and made the knob move sides, so now you can read it without any colour. The filled part of the volume slider is lighter than the empty part.
+**Greyscale check:** at first the switches only changed colour and in grey ON and OFF were hard to tell apart. I added the ON/OFF text and made the knob move sides, so now you can read it without any colour. The filled part of the volume slider is lighter than the empty part.
